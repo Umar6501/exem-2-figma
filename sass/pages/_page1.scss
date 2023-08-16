@@ -1,0 +1,227 @@
+body {
+  margin-top: 100px;
+  main {
+    .home {
+      padding-top: 116px;
+      background: #dceaf5;
+      .container {
+        display: flex;
+        flex-direction: row;
+        .home-left {
+          .p1 {
+            color: #1d3444;
+
+            /* H1 Heading */
+            font-family: Poppins;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 72px; /* 112.5% */
+            letter-spacing: -1.92px;
+            max-width: 576px;
+          }
+          .p2 {
+            color: #5b5b5b;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px; /* 166.667% */
+            max-width: 576px;
+            padding-top: 12px;
+            padding-bottom: 32px;
+          }
+          .left-btns {
+            padding-top: 32px;
+            padding-bottom: 56px;
+            .btn1 {
+              color: #fff;
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 106.5%; /* 17.04px */
+              text-transform: capitalize;
+              width: 199px;
+              height: 54px;
+              border: none;
+
+              border-radius: 27px;
+              background: #f58a07;
+            }
+            .btn2 {
+              color: #000000;
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 106.5%; /* 17.04px */
+              text-transform: capitalize;
+              width: 199px;
+              height: 54px;
+              border: none;
+
+              border-radius: 27px;
+              background: transparent;
+            }
+          }
+          .p3 {
+            color: rgba(57, 65, 73, 0.5);
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px; /* 166.667% */
+            padding-bottom: 19px;
+          }
+          .icons {
+            display: flex;
+            flex-direction: row;
+            gap: 45px;
+            padding-bottom: 147px;
+          }
+        }
+        .home-right {
+          img {
+            max-width: 700px;
+          }
+        }
+      }
+    }
+    .help {
+      .container {
+        .p5 {
+          color: #1d3444;
+
+          /* H2 Heading */
+          font-family: Poppins;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 56px; /* 116.667% */
+          letter-spacing: -1.44px;
+          max-width: 756px;
+          padding-top: 96px;
+
+          padding-bottom: 26px;
+        }
+        .p6 {
+          color: #5b5b5b;
+          font-family: Poppins;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 30px; /* 166.667% */
+          max-width: 756px;
+        }
+        .cards {
+          padding-top: 64px;
+          padding-bottom: 64px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+          .card {
+            max-width: 400px;
+            .card-text {
+              .p6 {
+                color: #0d1317;
+                font-family: Poppins;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 106.5%; /* 25.56px */
+                letter-spacing: -0.72px;
+                padding-top: 34px;
+              }
+              .p7 {
+                color: #5b5b5b;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 28px; /* 175% */
+                padding-top: 17px;
+                padding-bottom: 24px;
+              }
+              .p8 {
+                color: #f58a07;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 106.5%; /* 17.04px */
+              }
+            }
+          }
+        }
+      }
+    }
+    .style {
+      background: #edf7ff;
+      padding-top: 102px;
+      .container {
+        .text {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          .p9 {
+            color: #0d1317;
+            font-family: Poppins;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 44px; /* 122.222% */
+            letter-spacing: -1.08px;
+            max-width: 620px;
+          }
+          .p10 {
+            color: #1d3444;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px; /* 166.667% */
+            max-width: 620px;
+          }
+        }
+        .cards {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          padding-top: 64px;
+          padding-bottom: 96px;
+
+          .card {
+            width: 401px;
+            height: 277px;
+            background-color: #fff;
+            border-radius: 20px;
+
+            padding: 25px;
+            .p11 {
+              color: #0d1317;
+              font-family: Poppins;
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 106.5%; /* 25.56px */
+              letter-spacing: -0.72px;
+              padding-top: 32px;
+              padding-bottom: 16px;
+            }
+            .p12 {
+              color: #5b5b5b;
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 28px; /* 175% */
+            }
+          }
+        }
+      }
+    }
+  }
+}

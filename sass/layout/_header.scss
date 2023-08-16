@@ -1,0 +1,94 @@
+@use "../base/colors" as *;
+@use "../components" as *;
+
+body {
+  header {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    .container {
+      .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .menu {
+          display: none;
+        }
+        .nav-links {
+          display: flex;
+          flex-direction: row;
+          gap: 32px;
+
+          .nav-link {
+            a {
+              color: #394149;
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 24px; /* 150% */
+              text-transform: capitalize;
+            }
+          }
+          .btn {
+            a {
+              color: #f58a07;
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 106.5%; /* 17.04px */
+              border-radius: 31px;
+              background: rgba(245, 138, 7, 0.1);
+              padding: 18px 32px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    header {
+      background-color: #fff;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      .container {
+        .navbar {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          .menu {
+            display: block;
+          }
+          .nav-links {
+            display: none;
+            flex-direction: row;
+            gap: 32px;
+
+            .btn {
+              a {
+                color: #f58a07;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 106.5%; /* 17.04px */
+                border-radius: 31px;
+                background: rgba(245, 138, 7, 0.1);
+                padding: 18px 32px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
